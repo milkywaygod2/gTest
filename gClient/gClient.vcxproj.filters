@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일\client">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일\common">
+      <UniqueIdentifier>{18d51e97-db2d-435e-88ad-f5c6f7856101}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="리소스 파일\sourcecode">
+      <UniqueIdentifier>{30084545-2cb0-4266-9810-73e7f6cc0dd7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="gClient.cpp">
+      <Filter>리소스 파일\client</Filter>
+    </ClCompile>
+    <ClCompile Include="util.cpp">
+      <Filter>리소스 파일\client</Filter>
+    </ClCompile>
+    <ClCompile Include="cv_calibration.cpp">
+      <Filter>리소스 파일\sourcecode</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="util.h">
+      <Filter>리소스 파일\common</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>리소스 파일\common</Filter>
+    </ClInclude>
+    <ClInclude Include="data.h">
+      <Filter>리소스 파일\common</Filter>
+    </ClInclude>
+    <ClInclude Include="cv_calibration.h">
+      <Filter>리소스 파일\sourcecode</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
