@@ -26,6 +26,7 @@
   <ItemGroup>
     <ClInclude Include="cv_calibration.h" />
     <ClInclude Include="data.h" />
+    <ClInclude Include="gClient.h" />
     <ClInclude Include="pch.h" />
     <ClInclude Include="util.h" />
   </ItemGroup>

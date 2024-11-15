@@ -70,4 +70,6 @@ void cv_::imshowWindow(const std::string& str, const cv::Mat& img) {
 	cv::Mat imgShow;
 	cv::resize(img, imgShow, cv::Size(), hscale, hscale, cv::INTER_LINEAR);
 	cv::imshow(str, imgShow);
+	cv::waitKey(0);
+	cv::destroyWindow(str);
 }

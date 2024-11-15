@@ -40,5 +40,8 @@
     <ClInclude Include="cv_calibration.h">
       <Filter>리소스 파일\sourcecode</Filter>
     </ClInclude>
+    <ClInclude Include="gClient.h">
+      <Filter>리소스 파일\client</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
